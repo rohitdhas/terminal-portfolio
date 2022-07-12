@@ -131,13 +131,12 @@ icon.addEventListener("dblclick", function () {
                                                                                    
   
 </pre></div>
-        <div>Welcome to my portfolio ! To display the available commands type help. To validate each command press Enter, you can use the Tabulation key to help you complete a command.</div>
+        <div>Welcome to my portfolio ! To display the available commands type <code>help</code>. To validate each command press <em>Enter</em>, you can use the <em>Tabulation</em> key to help you complete a command.</div>
         <div id="terminal">
           <div>
             <p class="commande" id="answer${i}">Rohit Dhas:~/portfolio$</p>
             <input type="text" class="input" id="input${i}" tabindex="-1">
           </div>
-
       </div>
   `
   );
