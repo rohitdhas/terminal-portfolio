@@ -147,6 +147,9 @@ const data = {
     <div>my-projects[1].website</div>
     <div>my-projects[2].website</div>
     <div>my-projects[3].website</div>
+    <div>my-projects[4].website</div>
+    <div>my-projects[5].website</div>
+    <div>my-projects[6].website</div>
     <div><code>themes</code></div>
   `,
 
@@ -163,6 +166,9 @@ const data = {
     <div>my-projects[1].website</div>
     <div>my-projects[2].website</div>
     <div>my-projects[3].website</div>
+    <div>my-projects[4].website</div>
+    <div>my-projects[5].website</div>
+    <div>my-projects[6].website</div>
     <div><code>themes</code></div>
   `,
 
@@ -180,8 +186,6 @@ const data = {
 };
 
 let welcome = document.getElementById("welcome");
-// let popupcontent = document.getElementsByClassName("popupinfo")[0];
-// let french = document.getElementById("french");
 let english = document.getElementById("english");
 let language;
 

@@ -359,6 +359,21 @@ function logKey(e) {
           result === "my-projects[3].website"
         ) {
           website(result);
+        } else if (
+          result === "mes-projets[4].website" ||
+          result === "my-projects[4].website"
+        ) {
+          website(result);
+        } else if (
+          result === "mes-projets[5].website" ||
+          result === "my-projects[5].website"
+        ) {
+          website(result);
+        } else if (
+          result === "mes-projets[6].website" ||
+          result === "my-projects[6].website"
+        ) {
+          website(result);
         } else if (result === "secrets") {
           secrets();
         } else if (result === "move") {

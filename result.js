@@ -104,7 +104,23 @@ const website = (result) => {
     result === "my-projects[3].website"
   ) {
     a.href = "https://topstore-api.herokuapp.com/";
+  } else if (
+    result === "mes-projets[4].website" ||
+    result === "my-projects[4].website"
+  ) {
+    a.href = "https://speedtypewriter.netlify.app/";
+  } else if (
+    result === "mes-projets[5].website" ||
+    result === "my-projects[5].website"
+  ) {
+    a.href = "https://quotesappbyrohit.netlify.app/";
+  } else if (
+    result === "mes-projets[6].website" ||
+    result === "my-projects[6].website"
+  ) {
+    a.href = "https://pomodoroclockbyrohit.netlify.app/";
   }
+
   a.setAttribute("target", "blank");
   a.click();
 };
