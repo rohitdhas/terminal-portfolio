@@ -97,9 +97,9 @@ const data = {
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
 
-    glassmorphismOff: `<p class="notfound result glassmorphismOffresult">You have just deactivated the glassmorphism design to activate it use the <code>glassmophism</code> command.`,
+    glassmorphismOff: `<p class="notfound result glassmorphismOffresult">You have just activated the glassmorphism design to deactivate it use the <code>glassmophism</code> command.`,
 
-    glassmorphismOn: `<p class="notfound result glassmorphismOnresult">You have just activated the glassmorphism design to deactivate it use the <code>glassmophism</code> command.`,
+    glassmorphismOn: `<p class="notfound result glassmorphismOnresult">You have just deactivated the glassmorphism design to activate it use the <code>glassmophism</code> command.`,
 
     notfound: `<span class="notfoundlanguage"><br><br>Type the command <code>help</code> to display the list of available commands.</p></span>`,
 
@@ -169,8 +169,6 @@ function setLanguage() {
   }
   language = localStorage.getItem("language");
   welcome.innerHTML = data[language].welcome;
-  // popupcontent.innerHTML = data[language].information;
-  // btnPopup.innerHTML = data[language].btnpopup;
   document.querySelectorAll(".helpresult").forEach((element) => {
     element.innerHTML = data[language].help;
   });
@@ -223,15 +221,3 @@ function setLanguage() {
     element.innerHTML = data[language].congratulation;
   });
 }
-
-french.addEventListener("click", function () {
-  language = "french";
-  localStorage.setItem("language", language);
-  setLanguage();
-});
-
-english.addEventListener("click", function () {
-  language = "english";
-  localStorage.setItem("language", language);
-  setLanguage();
-});
