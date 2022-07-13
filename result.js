@@ -32,15 +32,6 @@ const getCv = () => {
     "https://drive.google.com/file/d/19jSFGM9VdC4Y6Pr_ErFk_9QcqdByZfRT/view?usp=sharing";
   a.setAttribute("target", "blank");
   a.click();
-  // terminal.insertAdjacentHTML(
-  //   "beforeend",
-  //   `<p class="result cvresult">${data[language].cv}</p>`
-  // );
-  // const a = document.createElement("a");
-  // a.href = "assets/Rohit's Resume.pdf";
-  // a.setAttribute("download", "Rohit's Resume.pdf");
-  // a.setAttribute("target", "blank");
-  // a.click();
 };
 
 const getLinkedin = () => {
