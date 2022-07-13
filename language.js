@@ -94,6 +94,30 @@ const data = {
     <td class="center">No</td>
     <td class="center"><a href="https://topstore-api.herokuapp.com/" target="blank">Link</a></td>
   </tr>
+  <tr>
+    <td class="center">4</td>
+    <td class="center">Speed Typewriter</td>
+    <td class="center">React Redux Netlify</td>
+    <td>It's a simple typing game made with React and Redux.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://speedtypewriter.netlify.app/" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">5</td>
+    <td class="center">Quotes App</td>
+    <td class="center">React Netlify</td>
+    <td>It's an app which fetches and shows random Quotes, you can directly tweet those quotes with a single click.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://quotesappbyrohit.netlify.app/" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">6</td>
+    <td class="center">Pomodoro Clock</td>
+    <td class="center">React Netlify</td>
+    <td>It's a Pomodoro clock built with React JS.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://pomodoroclockbyrohit.netlify.app/" target="blank">Link</a></td>
+  </tr>
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
 
