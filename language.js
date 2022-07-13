@@ -50,7 +50,7 @@ const data = {
     <td>Worked as a Full Stack developer at parceldeck.in - It's a web based dashboard for parcels, where you can send and track parcels.</td>
   </tr>`,
 
-    cv: `The resume download will begin.`,
+    cv: `You will be redirected to my resume.`,
 
     redirectLinkedin: `You will be redirected to Linkedin.`,
 
