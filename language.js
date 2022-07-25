@@ -15,7 +15,6 @@ const data = {
     <li><code>get linkedin</code>: Link to my Linkedin</li>
     <li><code>get github</code>: Link to my Github</li>
     <li><code>help</code>: Displays the list of commands</li>
-    <li><code>passions</code>: Displays the list of my hobbies</li>
     <li><code>my-projects</code>: Displays the list of my personal projects</li>
     <li><code>themes</code>: Change the terminal theme</li>
     <li><em>You can use the TAB key to complete a command line</em></li>
@@ -118,6 +117,14 @@ const data = {
     <td class="center">No</td>
     <td class="center"><a href="https://pomodoroclockbyrohit.netlify.app/" target="blank">Link</a></td>
   </tr>
+  <tr>
+    <td class="center">7</td>
+    <td class="center">CodeBox</td>
+    <td class="center">React NextJS MongoDB Vercel</td>
+    <td>It's a full stack 'Codepen' Clone.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://code-box.vercel.app/" target="blank">Link</a></td>
+  </tr>
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
 
@@ -150,6 +157,7 @@ const data = {
     <div>my-projects[4].website</div>
     <div>my-projects[5].website</div>
     <div>my-projects[6].website</div>
+    <div>my-projects[7].website</div>
     <div><code>themes</code></div>
   `,
 
@@ -169,6 +177,7 @@ const data = {
     <div>my-projects[4].website</div>
     <div>my-projects[5].website</div>
     <div>my-projects[6].website</div>
+    <div>my-projects[7].website</div>
     <div><code>themes</code></div>
   `,
 
