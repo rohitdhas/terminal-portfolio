@@ -119,6 +119,11 @@ const website = (result) => {
     result === "my-projects[6].website"
   ) {
     a.href = "https://pomodoroclockbyrohit.netlify.app/";
+  } else if (
+    result === "mes-projets[7].website" ||
+    result === "my-projects[7].website"
+  ) {
+    a.href = "https://code-box.vercel.app/";
   }
 
   a.setAttribute("target", "blank");
