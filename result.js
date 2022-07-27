@@ -29,7 +29,7 @@ const getCv = () => {
   );
   const a = document.createElement("a");
   a.href =
-    "https://drive.google.com/file/d/19jSFGM9VdC4Y6Pr_ErFk_9QcqdByZfRT/view?usp=sharing";
+    "https://drive.google.com/file/d/1XpSICxBcHwVxOrBaOlkSrYD0wYNJFSC2/view?usp=sharing";
   a.setAttribute("target", "blank");
   a.click();
 };
