@@ -29,7 +29,7 @@ const getCv = () => {
   );
   const a = document.createElement("a");
   a.href =
-    "https://drive.google.com/file/d/1XpSICxBcHwVxOrBaOlkSrYD0wYNJFSC2/view?usp=sharing";
+    "https://drive.google.com/file/d/1Q51--AA9UY1KjcGKV5OGn1edNlL5xSXo/view";
   a.setAttribute("target", "blank");
   a.click();
 };
@@ -40,7 +40,7 @@ const getLinkedin = () => {
     `<p class="result redirectresultLinkedin">${data[language].redirectLinkedin}</p>`
   );
   const a = document.createElement("a");
-  a.href = "https://www.linkedin.com/in/rohit-dhas-26b68215a/";
+  a.href = "https://www.linkedin.com/in/rohitdhas";
   a.setAttribute("target", "blank");
   a.click();
 };
@@ -93,37 +93,37 @@ const website = (result) => {
     result === "mes-projets[1].website" ||
     result === "my-projects[1].website"
   ) {
-    a.href = "https://topstore.netlify.app/";
+    a.href = "https://twistui.rohitdhas.dev/";
   } else if (
     result === "mes-projets[2].website" ||
     result === "my-projects[2].website"
   ) {
-    a.href = "http://bloggie-blog.herokuapp.com/";
+    a.href = "https://storefront.rohitdhas.dev/";
   } else if (
     result === "mes-projets[3].website" ||
     result === "my-projects[3].website"
   ) {
-    a.href = "https://topstore-api.herokuapp.com/";
+    a.href = "https://code-box.vercel.app/";
   } else if (
     result === "mes-projets[4].website" ||
     result === "my-projects[4].website"
   ) {
-    a.href = "https://speedtypewriter.netlify.app/";
+    a.href = "https://topstore.rohitdhas.dev/";
   } else if (
     result === "mes-projets[5].website" ||
     result === "my-projects[5].website"
   ) {
-    a.href = "https://quotesappbyrohit.netlify.app/";
+    a.href = "https://speedtypewriter.netlify.app/";
   } else if (
     result === "mes-projets[6].website" ||
     result === "my-projects[6].website"
   ) {
-    a.href = "https://pomodoroclockbyrohit.netlify.app/";
+    a.href = "https://quotesappbyrohit.netlify.app/";
   } else if (
     result === "mes-projets[7].website" ||
     result === "my-projects[7].website"
   ) {
-    a.href = "https://code-box.vercel.app/";
+    a.href = "https://pomodoroclockbyrohit.netlify.app/";
   }
 
   a.setAttribute("target", "blank");
