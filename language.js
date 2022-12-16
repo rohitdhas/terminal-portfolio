@@ -24,7 +24,7 @@ const data = {
       &nbsp;&nbsp;&nbsp;"name" : "Rohit Dhas",<br>
       &nbsp;&nbsp;&nbsp;"language" : "JavaScript, TypeScript, Node JS, SCSS, HTML, CSS, Python, C, C++",<br>
       &nbsp;&nbsp;&nbsp;"framework" : "React, Redux, Angular, Next JS, Nest JS, Socket.io, Express JS",<br>
-      &nbsp;&nbsp;&nbsp;"tools": "Git, GitHub, Heroku, Netlify, Vercel, Figma, Firebase",<br>
+      &nbsp;&nbsp;&nbsp;"tools": "Git, GitHub, Netlify, Vercel, Figma, Firebase",<br>
       &nbsp;&nbsp;&nbsp;"softSkills": "Agile Method, Teamwork",<br>
       &nbsp;&nbsp;&nbsp;"favoriteIDE": "VS Code",<br>
       &nbsp;&nbsp;&nbsp;"city" : "Pune, India"<br>
@@ -43,11 +43,18 @@ const data = {
     <td>Worked as a React JS developer on Quadb's CRM Project - It's a web based sales CRM that works as account management tool for sales & marketing team.</td>
   </tr>
   <tr>
-    <td class="center">April 2022- July 2022</td>
+    <td class="center">April 2022- Oct 2022</td>
     <td>Parceldeck</td>
     <td>Full Stack Developer</td>
-    <td>Worked as a Full Stack developer at parceldeck.in - It's a web based dashboard for parcels, where you can send and track parcels.</td>
-  </tr>`,
+    <td>Worked as a Full Stack developer at parceldeck.in - It's a web based courior aggregator platform.</td>
+  </tr>
+  <tr>
+    <td class="center">Oct 2022- Present</td>
+    <td>TaxAdda</td>
+    <td>Backend Developer Intern</td>
+    <td>Currently, Building Taxadda!</td>
+  </tr>
+  `,
 
     cv: `You will be redirected to my resume.`,
 
@@ -71,30 +78,38 @@ const data = {
   </tr>
   <tr>
     <td class="center">1</td>
-    <td class="center">Topstore</td>
-    <td class="center">React Redux Styled-Components Node Express MongoDB Netlify</td>
-    <td>It's an E-Commerce Website</td>
+    <td class="center">Twist UI</td>
+    <td class="center">React Tailwind-CSS Storybook TSDX</td>
+    <td>It's a Simple component library for faster react development!</td>
     <td class="center">No</td>
-    <td class="center"><a href="https://topstore.netlify.app/" target="blank">Link</a></td>
+    <td class="center"><a href="https://twistui.rohitdhas.dev/" target="blank">Link</a></td>
   </tr>
   <tr>
     <td class="center">2</td>
-    <td class="center">Bloggie</td>
-    <td class="center">React Redux Node Express Passport-JS MongoDB Heroku</td>
-    <td>It's a blogging platform where you can read and write blogs using Markdown.</td>
+    <td class="center">StoreFront</td>
+    <td class="center">Next-JS React Tailwind CSS MongoDB AWS-S3 GraphQL Stripe-API</td>
+    <td>It's an E-Commerce Website</td>
     <td class="center">No</td>
-    <td class="center"><a href="http://bloggie-blog.herokuapp.com/" target="blank">Link</a></td>
+    <td class="center"><a href="https://storefront.rohitdhas.dev/" target="blank">Link</a></td>
   </tr>
   <tr>
     <td class="center">3</td>
-    <td class="center">Topstore API</td>
-    <td class="center">Node Express MongoDB Heroku</td>
-    <td>It's a free REST API, which provides dummy data of products, that can be used with your shopping or e-commerce website prototype.</td>
+    <td class="center">Codebox</td>
+    <td class="center">React Next-JS Tailwind-CSS MongoDB Vercel</td>
+    <td>It's an online development platform for building websites using HTML, CSS and JS!</td>
     <td class="center">No</td>
-    <td class="center"><a href="https://topstore-api.herokuapp.com/" target="blank">Link</a></td>
+    <td class="center"><a href="https://code-box.vercel.app/" target="blank">Link</a></td>
   </tr>
   <tr>
     <td class="center">4</td>
+    <td class="center">Topstore API</td>
+    <td class="center">Node Express MongoDB</td>
+    <td>It's a free REST API, which provides dummy data of products, that can be used with your shopping or e-commerce website prototype.</td>
+    <td class="center">No</td>
+    <td class="center"><a href="https://topstore.rohitdhas.dev/" target="blank">Link</a></td>
+  </tr>
+  <tr>
+    <td class="center">5</td>
     <td class="center">Speed Typewriter</td>
     <td class="center">React Redux Netlify</td>
     <td>It's a simple typing game made with React and Redux.</td>
@@ -102,7 +117,7 @@ const data = {
     <td class="center"><a href="https://speedtypewriter.netlify.app/" target="blank">Link</a></td>
   </tr>
   <tr>
-    <td class="center">5</td>
+    <td class="center">6</td>
     <td class="center">Quotes App</td>
     <td class="center">React Netlify</td>
     <td>It's an app which fetches and shows random Quotes, you can directly tweet those quotes with a single click.</td>
@@ -110,20 +125,12 @@ const data = {
     <td class="center"><a href="https://quotesappbyrohit.netlify.app/" target="blank">Link</a></td>
   </tr>
   <tr>
-    <td class="center">6</td>
+    <td class="center">7</td>
     <td class="center">Pomodoro Clock</td>
     <td class="center">React Netlify</td>
     <td>It's a Pomodoro clock built with React JS.</td>
     <td class="center">No</td>
     <td class="center"><a href="https://pomodoroclockbyrohit.netlify.app/" target="blank">Link</a></td>
-  </tr>
-  <tr>
-    <td class="center">7</td>
-    <td class="center">CodeBox</td>
-    <td class="center">React NextJS MongoDB Vercel</td>
-    <td>It's a full stack 'Codepen' Clone.</td>
-    <td class="center">No</td>
-    <td class="center"><a href="https://code-box.vercel.app/" target="blank">Link</a></td>
   </tr>
   </table><br>
   <p class="result"><em>You can see the site attached to the project using the command</em> <code>my-projects[index].website</code><em>, index being the number associated with the project.</em></p>`,
